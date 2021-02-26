@@ -3,8 +3,18 @@
   border: 1px solid #4491db;
   border-radius: 4px;
   background: #fff;
+  margin: 5px;
+
   /* width: ;
   height: ;
   margin: ;
   padding: ; */
 }
+
+.country {
+  margin: 20px;
+  padding: 5px;
+}
+/* * { 
+  border: 1px solid red; 
+} */
