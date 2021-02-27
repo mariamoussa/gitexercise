@@ -1,1 +1,51 @@
 /* Write your media queries and flexbox CSS below */
+.site-wrapper {
+  display: flex;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.site-header__nav {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 480px) {
+  .site-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .site-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .site-header__nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .site-header__checkout {
+    display: flex;
+    justify-content: right;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .site-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .site-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
